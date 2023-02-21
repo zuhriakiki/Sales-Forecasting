@@ -37,7 +37,7 @@ df_arima <- data.frame(arima)
 df_arima$num <- 1:12
 df_arima_sort <- arrange(df_arima, desc(num))
 
-#bismillah plotly
+#visualize the result using plotly
 trace1 <- list(
   line = list(
     color = "rgbargba(184, 136, 169, 1.0)", 
