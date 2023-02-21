@@ -100,7 +100,7 @@ trace4 <- list(
 )
 data_plot <- list(trace1, trace2, trace3, trace4)
 layout <- list(
-  title = "Sales Forecast", 
+  title = "Sales Forecasting", 
   xaxis = list(
     title = "Year", 
     domain = c(0, 1)
